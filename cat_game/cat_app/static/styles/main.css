@@ -1,0 +1,307 @@
+* body{
+    background-image: url('fon_images/cats_fon.jpg');
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.box{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.main-title-home{
+    margin-top: 130px;
+    font-size: 170px;
+    color: orange;
+    text-shadow:
+		-0   -8px 0   #FFFFFF,
+		 0   -8px 0   #FFFFFF,
+		-0    8px 0   #FFFFFF,
+		 0    8px 0   #FFFFFF,
+		-8px -0   0   #FFFFFF,
+		 8px -0   0   #FFFFFF,
+		-8px  0   0   #FFFFFF,
+		 8px  0   0   #FFFFFF,
+		-1px -8px 0   #FFFFFF,
+		 1px -8px 0   #FFFFFF,
+		-1px  8px 0   #FFFFFF,
+		 1px  8px 0   #FFFFFF,
+		-8px -1px 0   #FFFFFF,
+		 8px -1px 0   #FFFFFF,
+		-8px  1px 0   #FFFFFF,
+		 8px  1px 0   #FFFFFF,
+		-2px -8px 0   #FFFFFF,
+		 2px -8px 0   #FFFFFF,
+		-2px  8px 0   #FFFFFF,
+		 2px  8px 0   #FFFFFF,
+		-8px -2px 0   #FFFFFF,
+		 8px -2px 0   #FFFFFF,
+		-8px  2px 0   #FFFFFF,
+		 8px  2px 0   #FFFFFF,
+		-3px -8px 0   #FFFFFF,
+		 3px -8px 0   #FFFFFF,
+		-3px  8px 0   #FFFFFF,
+		 3px  8px 0   #FFFFFF,
+		-8px -3px 0   #FFFFFF,
+		 8px -3px 0   #FFFFFF,
+		-8px  3px 0   #FFFFFF,
+		 8px  3px 0   #FFFFFF,
+		-4px -8px 0   #FFFFFF,
+		 4px -8px 0   #FFFFFF,
+		-4px  8px 0   #FFFFFF,
+		 4px  8px 0   #FFFFFF,
+		-8px -4px 0   #FFFFFF,
+		 8px -4px 0   #FFFFFF,
+		-8px  4px 0   #FFFFFF,
+		 8px  4px 0   #FFFFFF,
+		-5px -8px 0   #FFFFFF,
+		 5px -8px 0   #FFFFFF,
+		-5px  8px 0   #FFFFFF,
+		 5px  8px 0   #FFFFFF,
+		-8px -5px 0   #FFFFFF,
+		 8px -5px 0   #FFFFFF,
+		-8px  5px 0   #FFFFFF,
+		 8px  5px 0   #FFFFFF,
+		-6px -8px 0   #FFFFFF,
+		 6px -8px 0   #FFFFFF,
+		-6px  8px 0   #FFFFFF,
+		 6px  8px 0   #FFFFFF,
+		-8px -6px 0   #FFFFFF,
+		 8px -6px 0   #FFFFFF,
+		-8px  6px 0   #FFFFFF,
+		 8px  6px 0   #FFFFFF,
+		-7px -8px 0   #FFFFFF,
+		 7px -8px 0   #FFFFFF,
+		-7px  8px 0   #FFFFFF,
+		 7px  8px 0   grey,
+		-8px -7px 0   #FFFFFF,
+		 8px -7px 0   #FFFFFF,
+		-8px  7px 0   #FFFFFF,
+		 8px  7px 0   #FFFFFF,
+		-8px -8px 0   #FFFFFF,
+		 8px -8px 0   #FFFFFF,
+		-8px  8px 0   #FFFFFF,
+		 8px  8px 0   grey,
+		-8px -8px 0   #FFFFFF,
+		 8px -8px 0   #FFFFFF,
+		-8px  8px 0   #FFFFFF,
+		 12px  12px 0   grey;
+}
+
+.main-title-cat-info{
+    padding-top: 15px;
+    margin-top: 30px;
+    font-size: 80px;
+    color: orange;
+    	text-shadow:
+		-0   -5px 0   #FFFFFF,
+		 0   -5px 0   #FFFFFF,
+		-0    5px 0   #FFFFFF,
+		 0    5px 0   #FFFFFF,
+		-5px -0   0   #FFFFFF,
+		 5px -0   0   #FFFFFF,
+		-5px  0   0   #FFFFFF,
+		 5px  0   0   #FFFFFF,
+		-1px -5px 0   #FFFFFF,
+		 1px -5px 0   #FFFFFF,
+		-1px  5px 0   #FFFFFF,
+		 1px  5px 0   #FFFFFF,
+		-5px -1px 0   #FFFFFF,
+		 5px -1px 0   #FFFFFF,
+		-5px  1px 0   #FFFFFF,
+		 5px  1px 0   #FFFFFF,
+		-2px -5px 0   #FFFFFF,
+		 2px -5px 0   #FFFFFF,
+		-2px  5px 0   #FFFFFF,
+		 2px  5px 0   #FFFFFF,
+		-5px -2px 0   #FFFFFF,
+		 5px -2px 0   #FFFFFF,
+		-5px  2px 0   #FFFFFF,
+		 5px  2px 0   #FFFFFF,
+		-3px -5px 0   #FFFFFF,
+		 3px -5px 0   #FFFFFF,
+		-3px  5px 0   #FFFFFF,
+		 3px  5px 0   #FFFFFF,
+		-5px -3px 0   #FFFFFF,
+		 5px -3px 0   #FFFFFF,
+		-5px  3px 0   #FFFFFF,
+		 5px  3px 0   #FFFFFF,
+		-4px -5px 0   #FFFFFF,
+		 4px -5px 0   #FFFFFF,
+		-4px  5px 0   #FFFFFF,
+		 4px  5px 0   #FFFFFF,
+		-5px -4px 0   #FFFFFF,
+		 5px -4px 0   #FFFFFF,
+		-5px  4px 0   #FFFFFF,
+		 5px  4px 0   #FFFFFF,
+		-5px -5px 0   #FFFFFF,
+		 5px -5px 0   #FFFFFF,
+		-5px  5px 0   #FFFFFF,
+		 7px  7px 0   grey,
+		-5px -5px 0   #FFFFFF,
+		 5px -5px 0   #FFFFFF,
+		-5px  5px 0   #FFFFFF,
+		 7px  7px 0   grey;
+}
+
+.about-game{
+    margin-top: -20px;
+    font-size: 30px;
+    color: #6c6c6c;
+    text-shadow: 2px 2px 1px white;
+}
+.info-title{
+    margin-top: 60px;
+    font-size: 50px;
+    color: orange;
+    text-shadow:
+		-0   -3px 0   #FFFFFF,
+		 0   -3px 0   #FFFFFF,
+		-0    3px 0   #FFFFFF,
+		 0    3px 0   #FFFFFF,
+		-3px -0   0   #FFFFFF,
+		 3px -0   0   #FFFFFF,
+		-3px  0   0   #FFFFFF,
+		 3px  0   0   #FFFFFF,
+		-1px -3px 0   #FFFFFF,
+		 1px -3px 0   #FFFFFF,
+		-1px  3px 0   #FFFFFF,
+		 1px  3px 0   #FFFFFF,
+		-3px -1px 0   #FFFFFF,
+		 3px -1px 0   #FFFFFF,
+		-3px  1px 0   #FFFFFF,
+		 3px  1px 0   #FFFFFF,
+		-2px -3px 0   #FFFFFF,
+		 2px -3px 0   #FFFFFF,
+		-2px  3px 0   #FFFFFF,
+		 2px  3px 0   #FFFFFF,
+		-3px -2px 0   #FFFFFF,
+		 3px -2px 0   #FFFFFF,
+		-3px  2px 0   #FFFFFF,
+		 3px  2px 0   #FFFFFF,
+		-3px -3px 0   #FFFFFF,
+		 3px -3px 0   #FFFFFF,
+		-3px  3px 0   #FFFFFF,
+		 5px  5px 0   grey,
+		-3px -3px 0   #FFFFFF,
+		 3px -3px 0   #FFFFFF,
+		-3px  3px 0   #FFFFFF,
+		 5px  5px 0   grey;
+}
+
+.form-control{
+    border: 6px solid orange;
+    text-align: center;
+    color: grey;
+    margin-top: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.btn{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0.8rem 3.75rem;
+    border-radius: 2.25rem;
+}
+
+.cat_data_items{
+    font-size: 40px;
+    color: #6c6c6c;
+    text-shadow:
+		-0   -3px 0   #FFFFFF,
+		 0   -3px 0   #FFFFFF,
+		-0    3px 0   #FFFFFF,
+		 0    3px 0   #FFFFFF,
+		-3px -0   0   #FFFFFF,
+		 3px -0   0   #FFFFFF,
+		-3px  0   0   #FFFFFF,
+		 3px  0   0   #FFFFFF,
+		-1px -3px 0   #FFFFFF,
+		 1px -3px 0   #FFFFFF,
+		-1px  3px 0   #FFFFFF,
+		 1px  3px 0   #FFFFFF,
+		-3px -1px 0   #FFFFFF,
+		 3px -1px 0   #FFFFFF,
+		-3px  1px 0   #FFFFFF,
+		 3px  1px 0   #FFFFFF,
+		-2px -3px 0   #FFFFFF,
+		 2px -3px 0   #FFFFFF,
+		-2px  3px 0   #FFFFFF,
+		 2px  3px 0   #FFFFFF,
+		-3px -2px 0   #FFFFFF,
+		 3px -2px 0   #FFFFFF,
+		-3px  2px 0   #FFFFFF,
+		 3px  2px 0   #FFFFFF,
+		-3px -3px 0   #FFFFFF,
+		 3px -3px 0   #FFFFFF,
+		-3px  3px 0   #FFFFFF,
+		 5px  5px 0   grey,
+		-3px -3px 0   #FFFFFF,
+		 3px -3px 0   #FFFFFF,
+		-3px  3px 0   #FFFFFF,
+		 5px  5px 0   grey;
+}
+
+.info-item{
+    margin-top: 60px;
+    font-size: 50px;
+    color: orange;
+    text-shadow:
+		-0   -3px 0   #FFFFFF,
+		 0   -3px 0   #FFFFFF,
+		-0    3px 0   #FFFFFF,
+		 0    3px 0   #FFFFFF,
+		-3px -0   0   #FFFFFF,
+		 3px -0   0   #FFFFFF,
+		-3px  0   0   #FFFFFF,
+		 3px  0   0   #FFFFFF,
+		-1px -3px 0   #FFFFFF,
+		 1px -3px 0   #FFFFFF,
+		-1px  3px 0   #FFFFFF,
+		 1px  3px 0   #FFFFFF,
+		-3px -1px 0   #FFFFFF,
+		 3px -1px 0   #FFFFFF,
+		-3px  1px 0   #FFFFFF,
+		 3px  1px 0   #FFFFFF,
+		-2px -3px 0   #FFFFFF,
+		 2px -3px 0   #FFFFFF,
+		-2px  3px 0   #FFFFFF,
+		 2px  3px 0   #FFFFFF,
+		-3px -2px 0   #FFFFFF,
+		 3px -2px 0   #FFFFFF,
+		-3px  2px 0   #FFFFFF,
+		 3px  2px 0   #FFFFFF,
+		-3px -3px 0   #FFFFFF,
+		 3px -3px 0   #FFFFFF,
+		-3px  3px 0   #FFFFFF,
+		 5px  5px 0   grey,
+		-3px -3px 0   #FFFFFF,
+		 3px -3px 0   #FFFFFF,
+		-3px  3px 0   #FFFFFF,
+		 5px  5px 0   grey;
+}
+
+.info-block{
+    margin-top: 70px;
+}
+
+.form-center{
+    margin: auto;
+    padding-top: 20px;
+}
+
+.img{
+    padding-left: 20px;
+}
+
+.info-block{
+    padding-left: 30px;
+}
